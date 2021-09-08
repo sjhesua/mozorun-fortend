@@ -1,0 +1,396 @@
+/*============================================================================================*/
+/* Your custom styles below */
+
+
+
+
+.ribbon.off {
+    background-color: #000;
+}
+
+.mgt7 {
+    margin-top: 2px!important;
+}
+
+.topop {
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 80%;
+}
+
+.ribbon.off.topop {
+    background-color: #e70b1e;
+}
+
+.ribbon.off.topop:before {
+    font-family: 'food';
+    content: '\0076';
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    display: none;
+}
+
+.topopp {
+    right: -20px;
+    top: 85px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 58px;
+}
+.ribbon.off.topopp {
+    background-color: #20073e;
+}
+
+.ribbon.off.topopp:before {
+    font-family: 'food';
+    content: '\0076';
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .topopp {
+        right: 0px;
+        top: 95px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .topopp {
+        right: 0px;
+        top: 65px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    
+    .topopp {
+        right: 0px;
+        top: 95px;
+    }
+    .list_home ul li a figure {
+        width: 150px!important;
+        left: 10px!important;
+    }
+    .list_home ul li a {
+        padding: 15px 15px 15px 165px!important;
+        min-height: inherit;
+    }
+    .list_home ul li a figure img {
+        height: 113px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+   
+    .topopp {
+        right: 0px;
+        top: 117px;
+    }
+    .list_home ul li a figure {
+        width: 150px;
+    }
+    .list_home ul li a {
+        padding: 15px 15px 15px 165px;
+        min-height: inherit;
+    }
+    .list_home ul li a figure img {
+        height: 150px;
+        max-height: 150px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .list_home ul li a figure {
+        width: 45%!important;
+        left: 5px!important;
+    }
+    .list_home ul li a {
+        padding: 15px 15px 15px 155px!important;
+        min-height: inherit;
+    }
+}
+
+@media only screen and (max-width: 371px) {
+    .list_home ul li a figure {
+        width: 140px!important;
+        left: 10px!important;
+    }
+    .list_home ul li a {
+        padding: 15px 15px 15px 145px!important;
+        min-height: inherit;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 352px) {
+    .list_home ul li a figure {
+        width: 170px!important;
+        left: 5px!important;
+    }
+    .list_home ul li a {
+        padding: 25px 15px 15px 179px!important;
+        min-height: inherit;
+    }
+    .topopp {
+        right: 0px;
+        top: 157px;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .list_home ul li a figure {
+        width: 170px!important;
+        left: 5px!important;
+    }
+    .list_home ul li a {
+        padding: 25px 15px 15px 179px!important;
+        min-height: inherit;
+    }
+    .topopp {
+        right: 0px;
+        top: 157px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+
+    .topopp {
+        right: 0px;
+        top: 245px;
+    }
+}
+
+.list_home ul li a figure {
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    width: 160px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+
+
+@media only screen and (max-width: 1200px) {
+.list_home ul li a {
+    padding: 15px 15px 15px 190px;
+}
+}
+
+@media only screen and (max-width: 991px)
+{
+.list_home ul li a {
+    padding: 15px 15px 15px 200px;
+}
+
+.list_home ul li a figure {
+    border-radius: 5px 0 0 5px;
+    width: 160px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+}
+
+
+@media only screen and (max-width: 494px)
+{
+.list_home ul li a {
+    padding: 15px 15px 15px 160px!important;
+}
+
+.list_home ul li a figure {
+    border-radius: 5px 0 0 5px;
+    width: 160px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+}
+
+@media only screen and (max-width: 359px) {
+    .list_home ul li a figure {
+        width: 160px!important;
+        left: -5px!important;
+    }
+    .list_home ul li a {
+    padding: 15px 15px 15px 145px!important;
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .list_home ul li a figure {
+        width: 140px!important;
+        left: -5px!important;
+    }
+    .list_home ul li a {
+    padding: 15px 15px 15px 130px!important;
+}
+}
+
+.width100t {
+    max-width: 100%;  
+}
+
+.mglms {
+    margin-left: -19px;
+}
+.mglmsc {
+    margin-left: -15px;
+}
+
+.mtop66 {
+    margin-top: 66px;
+}
+
+.mmcw > ul > li > a { 
+    color: #000;
+}
+
+.ulmmcw li a {
+    color: #444!important;
+}
+
+.ulmmcw li a:hover {
+    color: #e54750!important;
+}
+
+.footer {
+    background-color: #20073e;
+}
+
+footer {
+    background-color: #20073e;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer .links ul li a {
+    position: relative;
+    color: #fff;
+    opacity: 1;
+    display: inline-block;
+}
+
+footer .contacts ul li {
+    color: #fff;
+}
+
+footer .contacts ul li a {
+    color: #fff;
+    opacity: 1;
+}
+
+.pagination_fg a.active {
+    background-color: #e70b1e;
+    color: white;
+}
+
+ul.additional_links {
+    color: #e54750;
+}
+
+ul.additional_links li a {
+    color: #fff;
+}
+
+ul.additional_links li span {
+    color: #fff;
+}
+
+.styled-select select {
+    color: #fff;
+}
+
+.styled-select:after {
+    color: #e54750;
+}
+
+ul.additional_links li a:hover {
+    color: #e54750;
+}
+
+.cmn > ul > li > a {
+    color: #222;
+    padding: 0 8px 10px 8px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.hb:hover {
+    color: #e54750!important;
+}
+
+button.open_close.wn {
+    color: #fff;
+}
+
+.headerhome {
+    transition: 0.5s all;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+}
+
+.headerhome a.open_close, .headerhome button.open_close {
+    color: #444!important;
+}
+
+.headerhome ul#top_menu li a, .headerhome ul#top_menu li button {
+    color: #444!important;
+    transition: 0.5s;
+}
+
+.headerhome ul#top_menu li a:hover, .headerhome ul#top_menu li button:hover {
+    color: #e54750!important;
+}
+
+.logo_scroll {
+    display: none;
+}
+
+.headerhome a img.logo_normal {
+    display: none;
+}
+
+.headerhome a img.logo_scroll {
+    display: inline;
+}
+
+.headerhome .main-menu > ul > li > a {
+    color: #444;
+    padding: 0 8px 10px 8px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.headerhome .main-menu > ul > li > a:hover {
+    color: #e54750!important;
+}
+
+.logomenu {
+    display: inline;
+}
+
+
+
+/*============================================================================================*/

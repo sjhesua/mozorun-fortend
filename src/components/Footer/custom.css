@@ -1,0 +1,62 @@
+/*============================================================================================*/
+/* Your custom styles below */
+
+
+
+.footer {
+    background-color: #20073e;
+}
+
+footer {
+    background-color: #20073e;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer .links ul li a {
+    position: relative;
+    color: #fff;
+    opacity: 1;
+    display: inline-block;
+}
+
+footer .contacts ul li {
+    color: #fff;
+}
+
+footer .contacts ul li a {
+    color: #fff;
+    opacity: 1;
+}
+
+.pagination_fg a.active {
+    background-color: #e70b1e;
+    color: white;
+}
+
+ul.additional_links {
+    color: #e54750;
+}
+
+ul.additional_links li a {
+    color: #fff;
+}
+
+ul.additional_links li span {
+    color: #fff;
+}
+
+.styled-select select {
+    color: #fff;
+}
+
+.styled-select:after {
+    color: #e54750;
+}
+
+ul.additional_links li a:hover {
+    color: #e54750;
+}
+/*============================================================================================*/
